@@ -2,4 +2,11 @@
     <string name="app_name">Timetable App</string>
     <string name="_6_am">6 AM</string>
     <string name="su">Su</string>
+    <string name="sa">Sa</string>
+    <string name="fr">Fr</string>
+    <string name="th">Th</string>
+    <string name="tu">Tu</string>
+    <string name="mo">Mo</string>
+    <string name="we">We</string>
+    <string name="_7_am">7 AM</string>
 </resources>

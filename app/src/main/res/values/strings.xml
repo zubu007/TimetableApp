@@ -15,4 +15,13 @@
     <string name="_11_am">11 AM</string>
     <string name="_12_pm">12 PM</string>
     <string name="_1_pm">1 PM</string>
+    <string name="_2_pm">2 PM</string>
+    <string name="_3_pm">3 PM</string>
+    <string name="_4_pm">4 PM</string>
+    <string name="_5_pm">5 PM</string>
+    <string name="_6_pm">6 PM</string>
+    <string name="_7_pm">7 PM</string>
+    <string name="_8_pm">8 PM</string>
+    <string name="_9_pm">9 PM</string>
+    <string name="_10_pm">10 PM</string>
 </resources>

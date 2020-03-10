@@ -629,6 +629,1556 @@ public class MainActivity extends AppCompatActivity {
                 a = 904;
             }
         });
+        btn905.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 905;
+            }
+        });
+        btn906.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 906;
+            }
+        });
+        btn907.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 907;
+            }
+        });
+        btn951.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 951;
+            }
+        });
+        btn952.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 952;
+            }
+        });
+        btn953.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 953;
+            }
+        });
+        btn954.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 954;
+            }
+        });
+        btn955.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 955;
+            }
+        });
+        btn956.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 956;
+            }
+        });
+        btn957.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 957;
+            }
+        });
+        btn1001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1001;
+            }
+        });
+        btn1002.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1002;
+            }
+        });
+        btn1003.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1003;
+            }
+        });
+        btn1004.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1004;
+            }
+        });
+        btn1005.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1005;
+            }
+        });
+        btn1006.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1006;
+            }
+        });
+        btn1007.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1007;
+            }
+        });
+        btn1051.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1051;
+            }
+        });
+        btn1052.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1052;
+            }
+        });
+        btn1053.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1053;
+            }
+        });
+        btn1054.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1054;
+            }
+        });
+        btn1055.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1055;
+            }
+        });
+        btn1056.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1056;
+            }
+        });
+        btn1057.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1057;
+            }
+        });
+        btn1101.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1101;
+            }
+        });
+        btn1102.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1102;
+            }
+        });
+        btn1103.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1103;
+            }
+        });
+        btn1104.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1104;
+            }
+        });
+        btn1105.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1105;
+            }
+        });
+        btn1106.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1106;
+            }
+        });
+        btn1107.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1107;
+            }
+        });
+        btn1151.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1151;
+            }
+        });
+        btn1152.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1152;
+            }
+        });
+        btn1153.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1153;
+            }
+        });
+        btn1154.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1154;
+            }
+        });
+        btn1155.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1155;
+            }
+        });
+        btn1156.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1156;
+            }
+        });
+        btn1157.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1157;
+            }
+        });
+        btn1201.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1201;
+            }
+        });
+        btn1202.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1202;
+            }
+        });
+        btn1203.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1203;
+            }
+        });
+        btn1204.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1204;
+            }
+        });
+        btn1205.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1205;
+            }
+        });
+        btn1206.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1206;
+            }
+        });
+        btn1207.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1207;
+            }
+        });
+        btn1251.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1251;
+            }
+        });
+        btn1252.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1252;
+            }
+        });
+        btn1253.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1253;
+            }
+        });
+        btn1254.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1254;
+            }
+        });
+        btn1255.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1255;
+            }
+        });
+        btn1256.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1256;
+            }
+        });
+        btn1257.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1257;
+            }
+        });
+        btn1301.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1301;
+            }
+        });
+        btn1302.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1302;
+            }
+        });
+        btn1303.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1303;
+            }
+        });
+        btn1304.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1304;
+            }
+        });
+        btn1305.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1305;
+            }
+        });
+        btn1306.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1306;
+            }
+        });
+        btn1307.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1307;
+            }
+        });
+        btn1351.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1351;
+            }
+        });
+        btn1352.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1352;
+            }
+        });
+        btn1353.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1353;
+            }
+        });
+        btn1354.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1354;
+            }
+        });
+        btn1355.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1355;
+            }
+        });
+        btn1356.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1356;
+            }
+        });
+        btn1357.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1357;
+            }
+        });
+        btn1401.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1401;
+            }
+        });
+        btn1402.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1402;
+            }
+        });
+        btn1403.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1403;
+            }
+        });
+        btn1404.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1404;
+            }
+        });
+        btn1405.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1405;
+            }
+        });
+        btn1406.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1406;
+            }
+        });
+        btn1407.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1407;
+            }
+        });
+        btn1451.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1451;
+            }
+        });
+        btn1452.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1452;
+            }
+        });
+        btn1453.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1453;
+            }
+        });
+        btn1454.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1454;
+            }
+        });
+        btn1455.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1455;
+            }
+        });
+        btn1456.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1456;
+            }
+        });
+        btn1457.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1457;
+            }
+        });
+        btn1501.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1501;
+            }
+        });
+        btn1502.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1502;
+            }
+        });
+        btn1503.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1503;
+            }
+        });
+        btn1504.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1504;
+            }
+        });
+        btn1505.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1505;
+            }
+        });
+        btn1506.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1506;
+            }
+        });
+        btn1507.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1507;
+            }
+        });
+        btn1551.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1551;
+            }
+        });
+        btn1552.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1552;
+            }
+        });
+        btn1553.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1553;
+            }
+        });
+        btn1554.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1554;
+            }
+        });
+        btn1555.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1555;
+            }
+        });
+        btn1556.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1556;
+            }
+        });
+        btn1557.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1557;
+            }
+        });
+        btn1601.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1601;
+            }
+        });
+        btn1602.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1602;
+            }
+        });
+        btn1603.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1603;
+            }
+        });
+        btn1604.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1604;
+            }
+        });
+        btn1605.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1605;
+            }
+        });
+        btn1606.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1606;
+            }
+        });
+        btn1607.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1607;
+            }
+        });
+        btn1651.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1651;
+            }
+        });
+        btn1652.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1652;
+            }
+        });
+        btn1653.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1653;
+            }
+        });
+        btn1654.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1654;
+            }
+        });
+        btn1655.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1655;
+            }
+        });
+        btn1656.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1656;
+            }
+        });
+        btn1657.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1657;
+            }
+        });
+        btn1701.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1701;
+            }
+        });
+        btn1702.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1702;
+            }
+        });
+        btn1703.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1703;
+            }
+        });
+        btn1704.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1704;
+            }
+        });
+        btn1705.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1705;
+            }
+        });
+        btn1706.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1706;
+            }
+        });
+        btn1707.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1707;
+            }
+        });
+        btn1751.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1751;
+            }
+        });
+        btn1752.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1752;
+            }
+        });
+        btn1753.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1753;
+            }
+        });
+        btn1754.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1754;
+            }
+        });
+        btn1755.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1755;
+            }
+        });
+        btn1756.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1756;
+            }
+        });
+        btn1757.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1757;
+            }
+        });
+        btn1801.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1801;
+            }
+        });
+        btn1802.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1802;
+            }
+        });
+        btn1803.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1803;
+            }
+        });
+        btn1804.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1804;
+            }
+        });
+        btn1805.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1805;
+            }
+        });
+        btn1806.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1806;
+            }
+        });
+        btn1807.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1807;
+            }
+        });
+        btn1851.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1851;
+            }
+        });
+        btn1852.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1852;
+            }
+        });
+        btn1853.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1853;
+            }
+        });
+        btn1854.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1854;
+            }
+        });
+        btn1855.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1855;
+            }
+        });
+        btn1856.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1856;
+            }
+        });
+        btn1857.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1857;
+            }
+        });
+        btn1901.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1901;
+            }
+        });
+        btn1902.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1902;
+            }
+        });
+        btn1903.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1903;
+            }
+        });
+        btn1904.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1904;
+            }
+        });
+        btn1905.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1905;
+            }
+        });
+        btn1906.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1906;
+            }
+        });
+        btn1907.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1907;
+            }
+        });
+        btn1951.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1951;
+            }
+        });
+        btn1952.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1952;
+            }
+        });
+        btn1953.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1953;
+            }
+        });
+        btn1954.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1954;
+            }
+        });
+        btn1955.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1955;
+            }
+        });
+        btn1956.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1956;
+            }
+        });
+        btn1957.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 1957;
+            }
+        });
+        btn2001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2001;
+            }
+        });
+        btn2002.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2002;
+            }
+        });
+        btn2003.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2003;
+            }
+        });
+        btn2004.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2004;
+            }
+        });
+        btn2005.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2005;
+            }
+        });
+        btn2006.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2006;
+            }
+        });
+        btn2007.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2007;
+            }
+        });
+        btn2051.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2051;
+            }
+        });
+        btn2052.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2052;
+            }
+        });
+        btn2053.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2053;
+            }
+        });
+        btn2054.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2054;
+            }
+        });
+        btn2055.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2055;
+            }
+        });
+        btn2056.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2056;
+            }
+        });
+        btn2057.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2057;
+            }
+        });
+        btn2101.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2101;
+            }
+        });
+        btn2102.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2102;
+            }
+        });
+        btn2103.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2103;
+            }
+        });
+        btn2104.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2104;
+            }
+        });
+        btn2105.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2105;
+            }
+        });
+        btn2106.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2106;
+            }
+        });
+        btn2107.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2107;
+            }
+        });
+        btn2151.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2151;
+            }
+        });
+        btn2152.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2152;
+            }
+        });
+        btn2153.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2153;
+            }
+        });
+        btn2154.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2154;
+            }
+        });
+        btn2155.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2155;
+            }
+        });
+        btn2156.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2156;
+            }
+        });
+        btn2157.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2157;
+            }
+        });
+        btn2201.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2201;
+            }
+        });
+        btn2202.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2202;
+            }
+        });
+        btn2203.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2203;
+            }
+        });
+        btn2204.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2204;
+            }
+        });
+        btn2205.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2205;
+            }
+        });
+        btn2206.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2206;
+            }
+        });
+        btn2207.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2207;
+            }
+        });
+        btn2251.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2251;
+            }
+        });
+        btn2252.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2252;
+            }
+        });
+        btn2253.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2253;
+            }
+        });
+        btn2254.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2254;
+            }
+        });
+        btn2255.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2255;
+            }
+        });
+        btn2256.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2256;
+            }
+        });
+        btn2257.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                startActivity(intent);
+                a = 2257;
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

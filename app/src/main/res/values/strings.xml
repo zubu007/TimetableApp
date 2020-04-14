@@ -24,4 +24,39 @@
     <string name="_8_pm">8 PM</string>
     <string name="_9_pm">9 PM</string>
     <string name="_10_pm">10 PM</string>
+    <string name="name">Name</string>
+    <string name="type">Type</string>
+    <string name="starting_time">Starting Time</string>
+    <string name="button">Button</string>
+    <string name="duration">Duration</string>
+    <string name="_30_mins">30 mins</string>
+    <string name="_1_hour">1 hour</string>
+    <string name="_1_hour_30_mins">1 hour 30 mins</string>
+    <string name="_2_hours">2 hours</string>
+    <string name="_2_hours_30_mins">2 hours 30 mins</string>
+    <string name="_3_hours">3 hours</string>
+    <string name="color_code">Color code</string>
+    <string name="pick_a_color">Pick a color</string>
+    <string name="create">Create</string>
+    <string name="textview">TextView</string>
+    <string name="day">Day</string>
+
+    <string-array name="duration">
+        <item>30 mins</item>
+        <item>1 hour</item>
+        <item>1 hour and 30 mins</item>
+        <item>2 hours</item>
+        <item>2 hours and 30 mins</item>
+        <item>3 hours</item>
+    </string-array>
+
+    <string-array name="day">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
 </resources>

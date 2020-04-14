@@ -10,6 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     public int a;
+    public String A;
 
     public MainActivity() {
     }
@@ -19,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        a = 0;
+
+        A = "a";
 
         Button btn601 = findViewById(R.id.btn600am_1);
         Button btn602 = findViewById(R.id.btn600am_2);
@@ -260,155 +262,179 @@ public class MainActivity extends AppCompatActivity {
         Button btn2256 = findViewById(R.id.btn1030pm_6);
         Button btn2257 = findViewById(R.id.btn1030pm_7);
 
+
+
         btn601.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 601;
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
 
         btn602.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 602;
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                intent.putExtra("A", a);
+                startActivity(intent);
+
             }
         });
         btn603.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 603;
+                Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                intent.putExtra("A", a);
+                startActivity(intent);
+
             }
         });
         btn604.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 604;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn605.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 605;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn606.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 606;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn607.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 607;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn651.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 651;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn652.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 652;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn653.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 653;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn654.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 654;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn655.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                a = 655;
+                intent.putExtra("A", a);
                 startActivity(intent);
-                a = 65;
             }
         });
         btn656.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 656;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn657.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 657;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn701.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 701;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn702.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 702;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn703.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 703;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn704.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 704;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn705.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                a = 705;
+                intent.putExtra("A", a);
                 startActivity(intent);
                 a = 705;
             }
@@ -417,1752 +443,1972 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 706;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn707.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 707;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn751.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 751;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn752.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 752;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn753.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 753;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn754.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 754;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn755.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 755;
+                intent.putExtra("A", a);
+                startActivity(intent);
+                a = 75;
             }
         });
         btn756.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 756;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn757.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 757;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn801.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 801;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn802.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 802;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn803.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 803;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn804.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
+                a = 801;
+                intent.putExtra("A", a);
                 startActivity(intent);
-                a = 804;
             }
         });
         btn805.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 805;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn806.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 806;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn807.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 807;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn851.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 851;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn852.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 852;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn853.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 853;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn854.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 854;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn855.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 855;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn856.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 856;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn857.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 857;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn901.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 901;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn902.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 902;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn903.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 903;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn904.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 904;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn905.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 905;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn906.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 906;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn907.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 907;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn951.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 951;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn952.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 952;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn953.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 953;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn954.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 954;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn955.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 955;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn956.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 956;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn957.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 957;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1001.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1001;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1002.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1002;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1003.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1003;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1004.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1004;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1005.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1005;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1006.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1006;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1007.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1007;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1051.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1051;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1052.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1052;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1053.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1053;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1054.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1054;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1055.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1055;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1056.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1056;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1057.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1057;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1101.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1101;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1102.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1102;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1103.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1103;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1104.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1104;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1105.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1105;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1106.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1106;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1107.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1107;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1151.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1151;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1152.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1152;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1153.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1153;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1154.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1154;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1155.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1155;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1156.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1156;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1157.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1157;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1201.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1201;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1202.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1202;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1203.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1203;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1204.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1204;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1205.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1205;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1206.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1206;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1207.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1207;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1251.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1251;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1252.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1252;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1253.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1253;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1254.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1254;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1255.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1255;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1256.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1256;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1257.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1257;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1301.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1301;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1302.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1302;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1303.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1303;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1304.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1304;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1305.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1305;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1306.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1306;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1307.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1307;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1351.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1351;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1352.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1352;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1353.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1353;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1354.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1354;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1355.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1355;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1356.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1356;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1357.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1357;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1401.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1401;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1402.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1402;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1403.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1403;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1404.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1404;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1405.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1405;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1406.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1406;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1407.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1407;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1451.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1451;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1452.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1452;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1453.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1453;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1454.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1454;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1455.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1455;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1456.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1456;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1457.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1457;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1501.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1501;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1502.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1502;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1503.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1503;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1504.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1504;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1505.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1505;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1506.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1506;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1507.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1507;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1551.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1551;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1552.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1552;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1553.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1553;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1554.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1554;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1555.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1555;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1556.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1556;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1557.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1557;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1601.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1601;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1602.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1602;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1603.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1603;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1604.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1604;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1605.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1605;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1606.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1606;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1607.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1607;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1651.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1651;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1652.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1652;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1653.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1653;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1654.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1654;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1655.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1655;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1656.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1656;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1657.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1657;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1701.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1701;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1702.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1702;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1703.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1703;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1704.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1704;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1705.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1705;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1706.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1706;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1707.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1707;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1751.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1751;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1752.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1752;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1753.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1753;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1754.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1754;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1755.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1755;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1756.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1756;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1757.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1757;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1801.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1801;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1802.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1802;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1803.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1803;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1804.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1804;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1805.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1805;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1806.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1806;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1807.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1807;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1851.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1851;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1852.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1852;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1853.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1853;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1854.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1854;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1855.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1855;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1856.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1856;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1857.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1857;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1901.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1901;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1902.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1902;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1903.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1903;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1904.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1904;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1905.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1905;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1906.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1906;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1907.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1907;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1951.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1951;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1952.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1952;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1953.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1953;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1954.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1954;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1955.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1955;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1956.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1956;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn1957.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 1957;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2001.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2001;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2002.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2002;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2003.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2003;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2004.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2004;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2005.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2005;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2006.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2006;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2007.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2007;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2051.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2051;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2052.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2052;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2053.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2053;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2054.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2054;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2055.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2055;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2056.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2056;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2057.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2057;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2101.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2101;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2102.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2102;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2103.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2103;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2104.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2104;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2105.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2105;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2106.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2106;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2107.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2107;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2151.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2151;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2152.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2152;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2153.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2153;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2154.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2154;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2155.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2155;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2156.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2156;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2157.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2157;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2201.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2201;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2202.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2202;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2203.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2203;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2204.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2204;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2205.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2205;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2206.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2206;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2207.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2207;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2251.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2251;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2252.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2252;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2253.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2253;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2254.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2254;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2255.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2255;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2256.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2256;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
         btn2257.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, inputActivity.class);
-                startActivity(intent);
                 a = 2257;
+                intent.putExtra("A", a);
+                startActivity(intent);
             }
         });
 

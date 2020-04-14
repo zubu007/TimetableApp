@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:importantForAutofill="no" />
+        android:hint="Enter Event Name"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/type"
@@ -39,13 +40,28 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+        android:hint="Gym, Tuition ..."
         android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/dayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/day"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/day"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        />
 
     <TextView
         android:id="@+id/startTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/starting_time" />
+        android:text="@string/starting_time"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btnStartTime"
@@ -57,19 +73,20 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/duration" />
+        android:text="@string/duration"
+        android:textSize="25sp" />
 
     <Spinner
         android:id="@+id/duration"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/duration"/>
+        android:layout_height="40dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/color_code" />
+        android:text="@string/color_code"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btnColor"
@@ -87,6 +104,6 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/textview" />
 
 </LinearLayout>

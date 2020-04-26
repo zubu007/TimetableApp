@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Enter Event Name"
+        android:hint="@string/enter_event_name"
         android:autofillHints="" />
 
     <TextView
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Gym, Tuition ..."
+        android:hint="@string/gym_tuition"
         android:importantForAutofill="no" />
 
     <TextView

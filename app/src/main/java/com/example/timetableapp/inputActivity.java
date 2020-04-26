@@ -22,8 +22,8 @@ public class inputActivity extends AppCompatActivity implements TimePickerDialog
     Button colorRed, colorBlue, colorGreen, colorPurple, colorSky, colorGray, colorOrange, colorYellow;
     Spinner duration, day;
     Dialog colorDialog;
-    public int a, b, x, y, digit, z;
-    public TimePickerFragment var;
+    public int id, h, m, y, digit, z;
+//    public TimePickerFragment var;
     public int hour, min, value, time, dayNo;
     public String name, type, colorID;
 
@@ -53,42 +53,28 @@ public class inputActivity extends AppCompatActivity implements TimePickerDialog
         create = findViewById(R.id.btnCreate);
 
 
-        a = getIntent().getIntExtra("A", 0);
+        id = getIntent().getIntExtra("ID", 0);
 
-        b = a;
+        //b = id;
 
-        while(a>0)
-        {
-            a= a/10;
-            digit ++;
+        h = id/100;
+        m = id - (h*100);
+
+        if(h<12){
+            if((m/50)== 0){
+                btnStart.setText(h + ":00 AM");
+            }else{
+                btnStart.setText(h + ":30 AM");
+            }
+        }else{
+            if((m/50)== 0){
+                btnStart.setText(h-12 + ":00 AM");
+            }else{
+                btnStart.setText(h-12 + ":30 AM");
+            }
         }
 
-        x = b/100;
-        y = ((b - (x*100)) /10) * 6;
 
-        if(digit==4)
-        {
-            z = x -12;
-            if(z>0)
-            {
-                x = x -12;
-                btnStart.setText("Hour: "+ x + " Minute: "+ y + " PM" );
-            }else if(z==0)
-            {
-
-                btnStart.setText("Hour: " + (x) + " Minute: " + y + " PM");
-            } else
-            {
-                btnStart.setText("Hour: "+ x + " Minute: "+ y + " AM" );
-            }
-
-        }else
-            btnStart.setText("Hour: "+ x + " Minute: "+ y + " AM" );
-
-
-
-
-        
 
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -115,9 +101,9 @@ public class inputActivity extends AppCompatActivity implements TimePickerDialog
                 Intent intent = new Intent(inputActivity.this, MainActivity.class);
                 intent.putExtra("NAME", name); //string
                 intent.putExtra("TYPE", type); //string
-                intent.putExtra("VALUE", value); //string
+                intent.putExtra("VALUE", value); //int
                 intent.putExtra("TIME", time); //int
-                intent.putExtra("DAY", dayNo);
+                intent.putExtra("DAY", dayNo); //int
                 intent.putExtra("COLOR", colorID); //string
                 startActivity(intent);
 
@@ -207,78 +193,83 @@ public class inputActivity extends AppCompatActivity implements TimePickerDialog
 
     @Override
     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-        btnStart.setText("Hour: "+ hourOfDay + "Minute: "+ minute);
         hour = hourOfDay;
         min = minute;
 
-        if(hour == 6 && min<30)
+        if(hour<12) {
+            btnStart.setText(hour + ":" + min + " AM");
+        }else{
+            btnStart.setText(hour -12 + ":"+ min + " PM");
+        }
+
+        if(hour == 6 && min<=30)
             value = 600;
         else if(hour == 6 && min > 30)
-            value = 630;
-        else if(hour == 7 && min < 30)
+            value = 650;
+        else if(hour == 7 && min <= 30)
             value = 700;
         else if(hour == 7 && min > 30)
-            value = 730;
-        else if(hour == 8 && min < 30)
+            value = 750;
+        else if(hour == 8 && min <= 30)
             value = 800;
         else if(hour == 8 && min > 30)
-            value = 830;
-        else if(hour == 9 && min < 30)
+            value = 850;
+        else if(hour == 9 && min <= 30)
             value = 900;
         else if(hour == 9 && min > 30)
-            value = 930;
-        else if(hour == 10 && min < 30)
+            value = 950;
+        else if(hour == 10 && min <= 30)
             value = 1000;
         else if(hour == 10 && min > 30)
-            value = 1030;
-        else if(hour == 11 && min < 30)
+            value = 1050;
+        else if(hour == 11 && min <= 30)
             value = 1100;
         else if(hour == 11 && min > 30)
-            value = 1130;
-        else if(hour == 12 && min < 30)
+            value = 1150;
+        else if(hour == 12 && min <= 30)
             value = 1200;
         else if(hour == 12 && min > 30)
-            value = 1230;
-        else if(hour == 13 && min < 30)
+            value = 1250;
+        else if(hour == 13 && min <= 30)
             value = 1300;
         else if(hour == 13 && min > 30)
-            value = 1330;
-        else if(hour == 14 && min < 30)
+            value = 1350;
+        else if(hour == 14 && min <= 30)
             value = 1400;
         else if(hour == 14 && min > 30)
-            value = 1430;
-        else if(hour == 15 && min < 30)
+            value = 1450;
+        else if(hour == 15 && min <= 30)
             value = 1500;
         else if(hour == 15 && min > 30)
-            value = 1530;
-        else if(hour == 16 && min < 30)
+            value = 1550;
+        else if(hour == 16 && min <= 30)
             value = 1600;
         else if(hour == 16 && min > 30)
-            value = 1630;
-        else if(hour == 17 && min < 30)
+            value = 1650;
+        else if(hour == 17 && min <= 30)
             value = 1700;
         else if(hour == 17 && min > 30)
-            value = 1730;
-        else if(hour == 18 && min < 30)
+            value = 1750;
+        else if(hour == 18 && min <= 30)
             value = 1800;
         else if(hour == 18 && min > 30)
-            value = 1830;
-        else if(hour == 19 && min < 30)
+            value = 1850;
+        else if(hour == 19 && min <= 30)
             value = 1900;
         else if(hour == 19 && min > 30)
-            value = 1930;
-        else if(hour == 20 && min < 30)
+            value = 1950;
+        else if(hour == 20 && min <= 30)
             value = 2000;
         else if(hour == 20 && min > 30)
-            value = 2030;
-        else if(hour == 21 && min < 30)
+            value = 2050;
+        else if(hour == 21 && min <= 30)
             value = 2100;
         else if(hour == 21 && min > 30)
-            value = 2130;
-        else if(hour == 22 && min < 30)
+            value = 2150;
+        else if(hour == 22 && min <= 30)
             value = 2200;
         else if(hour == 22 && min > 30)
-            value = 2230;
+            value = 2250;
 
     }
 
